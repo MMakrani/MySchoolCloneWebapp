@@ -1,0 +1,871 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ul li a is the .container class elments  */
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: flexbox;
+}
+
+ul li a {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+
+    position: relative;
+    top: 27px;
+    left: 100px;
+    padding: 28px;
+
+    font-weight: bold;
+
+}
+
+ul li a:hover {
+    background-color: rgb(6, 232, 66);
+    color: white;
+}
+
+/*.ol .li is the login button  (link or elment) of the  log-in */
+
+.ol .li {
+    display: block;
+}
+
+.ol .li .a {
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+    top: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 25px;
+    width: 135px;
+    height: auto;
+    background-color: rgb(6, 232, 66);
+    text-align: center;
+
+}
+
+.ol .li .a:hover {
+    background-color: green;
+    color: white;
+}
+
+
+.container2 {
+    position: relative;
+    top: -10px;
+}
+
+.ol2 {
+    position: relative;
+    top: 10px;
+    background-color: rgb(20, 20, 20);
+    height: 42px;
+    text-align: center;
+
+}
+
+.ol2 .li2 {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*.a2 is the all other (button) elment of the div.continer2 .ol2 class list element */
+
+.ol2 .li2 .a2 {
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+    padding: 11.5px 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: -150px;
+
+}
+
+
+.ol2 .li2 .a2:hover {
+    background-color: black;
+    width: max-content;
+    height: auto;
+
+}
+
+/*.a21 is the Javascript button of the div.container2 .ol2 class list element */
+.ol2 .li2 .a21 {
+    padding: 10px 10px 13.5px 6px;
+    margin: 15px 5px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    left: -160px;
+}
+
+/*.a11 is the Menu button of the div.container2 .ol2 class list element */
+
+.ol2 .li2 .a11 {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    top: 10px;
+    left: -140px;
+    padding: 11.5px;
+    margin: 10px;
+
+}
+
+.ol2 .li2 .a11:hover {
+    background-color: black;
+
+}
+
+/*.a1 is the MySchool logo elment of the div.container class element */
+.a1 {
+    text-decoration: none;
+    color: rgb(3, 140, 3);
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    left: 30px;
+}
+
+.a1 .p {
+    position: relative;
+    font-size: 20px;
+    top: -15px;
+
+}
+
+/*.c1 .c2 .c3 is div.course class element*/
+.c1 .c2 .c3 {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    float: right;
+    right: 170px;
+    top: 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    ;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    width: 110px;
+    height: auto;
+    text-align: center;
+}
+
+.c1 .c2 .c3:hover {
+    background-color: green;
+    color: white;
+}
+
+/*.btn1,btn2,btn3 is elements of div.button class*/
+.btn1 {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    position: relative;
+    float: right;
+    top: -50px;
+    right: 240px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 5px;
+}
+
+.btn2 {
+    text-decoration: none;
+    color: rgb(233, 222, 222);
+    float: right;
+    position: relative;
+    top: -50px;
+    right: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 5px;
+
+
+}
+
+.btn3 {
+    text-decoration: none;
+    color: rgb(230, 216, 216);
+    float: right;
+    position: relative;
+    top: -50px;
+    left: 135px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 5px;
+
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    background-color: black;
+
+}
+
+/* #a1 to #a5 the id of div.container2 Elements */
+#a1 {
+    margin-left: -10px;
+    ;
+}
+
+#a2 {
+    margin-left: -10px;
+}
+
+#a3 {
+    margin-left: -15px;
+}
+
+#a4 {
+    margin-left: -8px;
+}
+
+#a5 {
+    margin-left: -8px;
+}
+
+.h1 {
+    position: relative;
+    top: 70px;
+    left: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+div .home {
+    text-decoration: none;
+    background-color: #04AA6D;
+    color: white;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 170px;
+    left: 15px;
+    padding: 15px 25px;
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+div .home:hover{
+    background-color: #119464;
+}
+
+div .next {
+    text-decoration: none;
+    background-color: #04AA6D;
+    color: white;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 140px;
+    right: -240px;
+    padding: 15px 25px;
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    float: right;
+}
+
+div .next:hover{
+    background-color: #119464;
+}
+
+.para {
+    position: relative;
+    width: auto;
+    height: 250px;
+    background-color: #d6ffe5;
+    top: 210px;
+}
+
+.p1 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.p2 {
+    position: absolute;
+    top: 75px;
+    left: 40px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.p3 {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    font-size: 20px;
+    color: black;
+
+
+}
+
+.p-a {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    text-decoration: none;
+    color: rgb(254, 250, 250);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #04AA6D;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div .p-a:hover{
+    background-color:#119464 ;
+}
+
+
+.hr {
+    color: rgb(247, 243, 243);
+    position: relative;
+    top: 240px;
+}
+
+.h1-2 {
+    position: relative;
+    top: 270px;
+    left: 25px;
+    font-family: 'Rubik', sans-serif;
+    font: bold;
+}
+
+div .p4 {
+    position: relative;
+    top: 300px;
+    left: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+
+.example-container {
+    position: absolute;
+    top: 830px;
+    left: 15px;
+    background-color: #e7e9eb;
+    display: block;
+    width: 800px;
+    height: 320px;
+    border-radius: 5px;
+}
+
+.h1-3 {
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+div .inner-container {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    height: 150px;
+}
+
+div .color {
+    background-color: #04AA6D;
+    width: 5px;
+    height: 150px;
+}
+
+div .inner-para {
+    position: relative;
+    top: -140px;
+    left: 15px;
+    font-family: monospace;
+    font-size: 17px;
+    color: black;
+    font-weight: 800;
+}
+
+.span-p2 {
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.span-p3 {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.span-p4 {
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+.span-p5 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.sp1 {
+    color: blue;
+}
+
+.sp2 {
+    color: red;
+}
+
+.sp3 {
+    color: blue;
+}
+
+.sp4 {
+    color: blue;
+}
+
+div .outer-para {
+    color: white;
+    background-color: #04AA6D;
+    width: max-content;
+    height: max-content;
+    position: relative;
+    top: 240px;
+    left: 5px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+div .outer-para:hover{
+ background-color: #119464;
+}
+
+.pa {
+    color: rgb(10, 8, 8);
+    position: relative;
+    top: 700px;
+    left: 35px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+.hr2 {
+    color: rgb(247, 243, 243);
+    position: relative;
+    top: 730px;
+}
+
+.exercises {
+    position: relative;
+    top: 760px;
+    left: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.test-yourself {
+    position: relative;
+    top: 800px;
+    left: 20px;
+    background-color: rgb(14, 14, 14);
+    width: 800px;
+    height: 520px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.test-with {
+    position: relative;
+    color: white;
+    top: 40px;
+    left: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Exercise-inner {
+    position: relative;
+    height: 400px;
+    width: 760px;
+    background-color: white;
+    top: 60px;
+    left: 2px;
+    margin: 5px 10px 3px 10px;
+    padding: 5px 10px 3px 10px;
+
+}
+
+.h1-inner {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.p-inner {
+    position: relative;
+    top: 60px;
+    left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.inner-inner-con {
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    width: 745px;
+    height: 100px;
+    background-color: rgb(223, 221, 221);
+
+
+}
+
+.inner-inner-para {
+   
+    position: relative;
+    top: 40px;
+    left: 10px;
+    box-sizing: inherit;
+    font-family: monospace,monospace;
+    font-size: 1.5em;
+}
+.inner-inner-para label input{
+width: 17px ; 
+height: 22px; 
+font-family: 'Courier New', Courier, monospace;
+border-style: none; 
+position: relative; 
+top: -2px;
+font-size: 22px;
+font-weight: bold;
+}
+
+div a.Submit{
+ background-color: #04AA6D;
+ text-decoration: none;
+ position: relative;
+ top: -70px;
+ left: 35px;
+ color: white;
+ padding: 10px 25px ;
+ border-radius:5px ;
+ font-family: 'Rubik',sans-serif;
+ font-weight: bold;
+}
+div a.Submit:hover{
+    background-color: #119464;
+}
+div a.start-the-exercise{
+    font-family: 'Rubik',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+    left:-150px;
+    color: black;
+    
+}
+div a.start-the-exercise:hover{
+    color: #04AA6D;
+}
+.hr-3{
+    position: relative;
+    top: 825px;
+    color:rgb(255, 248, 248) ;
+}
+
+.hr-4{
+    position: relative;
+    top: 865px;
+    color:rgb(247, 243, 243) ;
+}
+
+div.JQuery-Examples{
+    position: relative;
+    top: 900px;
+}
+
+div h1.h-5{
+    position: relative;
+    left: 40px;    
+    font-family: 'Rubik',sans-serif;
+}
+
+div p.para-1{
+    position: relative;
+    top: 25px;
+    left: 40px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 500;
+}
+div a.See-all{
+    position: relative;
+    top: 60px;
+    left: 40px;
+    text-decoration: none;
+    color: black;
+    background-color: #e7e9eb;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+div a.See-all:hover{
+    background-color:#bebfbf ;
+}
+div.JQuery-Quiz{
+    position: relative;
+    top: 1040px;
+}
+.hr-5{
+    position: relative;
+    top: 1000px;
+}
+div h1.JQuery-Quiz-sub{
+  position: relative;
+  left: 40px;
+  font-family:'Rubik',sans-serif ;
+}
+div p.JQuery-Quiz-sub1{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+div a.Start-Quiz{
+    position: relative;
+    font-family: 'Rubik';
+    font-size: 18px;
+    top: 70px;
+    left: 35px;
+    text-decoration: none;
+    color:white;
+    background-color: #2196F3;
+    padding:10px 20px 10px 20px;
+    margin: 10px;
+    border-radius:5px;
+}
+ a.Start-Quiz:hover{
+    background-color:rgb(41, 130, 232) ;
+
+}
+
+.hr-6{
+    position: relative;
+    top: 1150px;
+}
+div.JQuery_References{
+    position: relative;
+    top: 1170px;
+}
+
+div h1.JQuery-Ref{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-family: 'Rubik',sans-serif;
+}
+div p.JQuery-para{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 500;
+}
+div a.JQuery-link{
+    position: relative;
+    top: 60px;
+    left: 40px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+div a.JQuery-link:hover{
+    color: #04AA6D;
+}
+div.kick-start{
+    position: relative;
+    top: 1500px;
+    left: 35px;
+    height: 500px;
+    background-color: rgb(27, 26, 26);
+    display: block;
+    border-radius: 20px;
+}
+div h1.h1-kick{
+    position: relative;
+    top: 60px;
+    left: 60px;
+    color:#FFC0C7 ;
+    font-family: 'Rubik',sans-serif;
+    font-size: 48px;
+ 
+    }
+div h1.h1-Get{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    color: #FFC0C7;
+    font-family: 'Rubik',sans-serif;
+    font-size: 48px;
+    
+    
+}
+
+div a.get-certified{
+    position: relative;
+      top: 200px;
+    left:60px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #04AA6D;
+    margin: 10px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 25px;
+}
+
+div a.get-certified:hover{
+    background-color: #119464;
+}
+
+div.circle{
+    background-color: #04AA6D;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 40px;
+}
+div h3.h3-circle{
+    color: white;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+
+div h1.h1-circle{
+    color: white;
+    position: relative;
+    top:10px;
+    left: 80px;
+}
+div h2.h2-circle{
+    color: white;
+    position: relative;
+    top: 60px;
+}
+div h4.dot-circle{
+color: white;
+position: relative;
+float: right;
+top: 110px;
+right: 100px;
+font-size: 22px ;
+}
+div h5.h5-year{
+color: white;
+float: right;
+position: relative;
+top: 100px;
+right: 40px;
+font-size: 22px ;
+}
+/*
+div h4.my-school{
+    position: relative;
+    top: 20px;
+    float: right;
+    right: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    transform:"translate(93.54) rotate(-29.5)" ;
+}
+
+*/
+
+.j {
+    position: relative;
+    top: 1900px;
+    color: red;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .container,.a1,.p,.menu,.course,.c1,.c2,.container2,.button,.h1,.button-home-next,.para,.h1-1,.example-container {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
